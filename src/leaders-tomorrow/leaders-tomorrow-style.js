@@ -1,9 +1,13 @@
 import styled from "styled-components";
 export const LeadersTomorrowStyle = styled.div`
+  /* display: flex;
+  justify-content: center; */
+  display: flex;
+  justify-content: center;
   .capsule {
     background-color: rgb(252, 41, 71);
     border-radius: 200px;
-    max-width: 1400px;
+    width: 1400px;
     padding: 2rem;
   }
   .heading {
