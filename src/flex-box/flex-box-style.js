@@ -2,7 +2,6 @@ import styled from "styled-components";
 export const FlexStyle = styled.div`
   .parent {
     display: flex;
-
     background-color: green;
     justify-content: center;
     align-items: center;
