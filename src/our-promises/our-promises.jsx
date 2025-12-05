@@ -20,9 +20,16 @@ const OurPromisesComponent = () => {
         </p>
       </div>
       <div className="parent">
-        <div className="child">
+        <div
+          className="child"
+          style={{ borderTop: "4px solid rgb(68,178,179)" }}
+        >
           <div className="title__parent">
-            <FontAwesomeIcon icon={faLaptopCode} />
+            <FontAwesomeIcon
+              icon={faLaptopCode}
+              color="rgb(68,178,179)"
+              fontSize="30px"
+            />
             <h1 className="title">Top Code Quality</h1>
           </div>
           <div className="para">
@@ -31,9 +38,16 @@ const OurPromisesComponent = () => {
             compromise on quality.
           </div>
         </div>
-        <div className="child">
+        <div
+          className="child"
+          style={{ borderTop: "4px solid rgb(239,175,75)" }}
+        >
           <div className="title__parent">
-            <FontAwesomeIcon icon={faMobile} />
+            <FontAwesomeIcon
+              icon={faMobile}
+              color="rgb(239,175,75)"
+              fontSize="30px"
+            />
             <h1 className="title">Responsive</h1>
           </div>
           <div className="para">
@@ -42,9 +56,16 @@ const OurPromisesComponent = () => {
             listening and leveraging our utmost capabilities to serve you.
           </div>
         </div>
-        <div className="child">
+        <div
+          className="child"
+          style={{ borderTop: "4px solid rgb(0,189,235)" }}
+        >
           <div className="title__parent">
-            <FontAwesomeIcon icon={faPeopleGroup} />
+            <FontAwesomeIcon
+              icon={faPeopleGroup}
+              color="rgb(0,189,235)"
+              fontSize="30px"
+            />
             <h1 className="title">Rockstar Team</h1>
           </div>
           <div className="para">
@@ -53,9 +74,16 @@ const OurPromisesComponent = () => {
             serving you, armed with coding skills that are truly exceptional.
           </div>
         </div>
-        <div className="child">
+        <div
+          className="child"
+          style={{ borderTop: "4px solid rgb(134,74,249)" }}
+        >
           <div className="title__parent">
-            <FontAwesomeIcon icon={faRightFromBracket} />
+            <FontAwesomeIcon
+              icon={faRightFromBracket}
+              color="rgb(134,74,249)"
+              fontSize="30px"
+            />
             <h1 className="title">Fast Turn-arounds</h1>
           </div>
           <div className="para">
@@ -64,9 +92,16 @@ const OurPromisesComponent = () => {
             timeframe that suits your preferences.
           </div>
         </div>
-        <div className="child">
+        <div
+          className="child"
+          style={{ borderTop: "4px solid rgb(252,41,71)" }}
+        >
           <div className="title__parent">
-            <FontAwesomeIcon icon={faNetworkWired} />
+            <FontAwesomeIcon
+              icon={faNetworkWired}
+              color="rgb(252,41,71)"
+              fontSize="30px"
+            />
             <h1 className="title">Life-time support</h1>
           </div>
           <div className="para">
@@ -75,9 +110,16 @@ const OurPromisesComponent = () => {
             reach out to us for assistance.
           </div>
         </div>
-        <div className="child">
+        <div
+          className="child"
+          style={{ borderTop: "4px solid rgb(50,199,102)" }}
+        >
           <div className="title__parent">
-            <FontAwesomeIcon icon={faShieldHalved} />
+            <FontAwesomeIcon
+              icon={faShieldHalved}
+              color="rgb(50,199,102)"
+              fontSize="30px"
+            />
             <h1 className="title">Secured Agreement</h1>
           </div>
           <div className="para">
