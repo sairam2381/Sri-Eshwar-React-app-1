@@ -5,7 +5,7 @@ import { OurpromisesData } from "./data";
 
 const OurPromisesComponent = () => {
   return (
-    <OurPromisesStyle>
+    <OurPromisesStyle gapLength="20px">
       <div className="paras">
         <h1>Our Promise</h1>
         <p>
