@@ -8,6 +8,7 @@ import PropsPractice from "./props-practice/props-practice";
 import SymbolOfExcellenceComponent from "./symbol-of-excellence/symbol-of-execllence-component";
 import FourOFourComponent from "./404-component/404-component";
 import UseStateComponent from "./usestate-1st/use-state-component";
+import UsestateformComponent from "./use-state-form/use-state-form-component";
 function App() {
   const arr1 = [
     { name: "sai", mobile: "1234" },
@@ -46,6 +47,7 @@ function App() {
         <Route path="/leetcode/:id" element={<SymbolOfExcellenceComponent />} />
         <Route path="*" element={<FourOFourComponent />} />
         <Route path="/use-state-practice" element={<UseStateComponent />} />
+        <Route path="/use-state-form" element={<UsestateformComponent />} />
       </Routes>
     </div>
   );
