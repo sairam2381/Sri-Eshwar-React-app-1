@@ -2,9 +2,13 @@ import React, { useEffect, useState } from "react";
 const UseEffectComponent = () => {
   const [count, setCount] = useState(0);
   const [name, setName] = useState("Sreesairam");
+  function printHello() {
+    console.log("Print Hello");
+  }
+
   useEffect(() => {
-    console.log("SREESAIRAM ESHWAR AGH");
-  }, [count,name]);
+    printHello();
+  }, [count, name]);
   return (
     <div>
       <h1>UseEffect</h1>

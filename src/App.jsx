@@ -13,6 +13,7 @@ import AdditionOperationComponent from "./addition-operation-in-state/addition-o
 import FetchApiComponent from "./fetch-api/fetch-api-component";
 import UseEffectComponent from "./use-effect-practice/use-effect-practice";
 import UseEffectPracticeTwo from "./use-effect-practice/use-effect-practice-2";
+import UseEffectPracticeThree from "./use-effect-practice/use-effect-practice-3";
 function App() {
   const arr1 = [
     { name: "sai", mobile: "1234" },
@@ -61,6 +62,10 @@ function App() {
         <Route
           path="/use-effect-practice-2"
           element={<UseEffectPracticeTwo />}
+        />
+        <Route
+          path="/use-effect-practice-3"
+          element={<UseEffectPracticeThree />}
         />
       </Routes>
     </div>
