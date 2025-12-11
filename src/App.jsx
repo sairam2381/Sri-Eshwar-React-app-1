@@ -14,6 +14,7 @@ import FetchApiComponent from "./fetch-api/fetch-api-component";
 import UseEffectComponent from "./use-effect-practice/use-effect-practice";
 import UseEffectPracticeTwo from "./use-effect-practice/use-effect-practice-2";
 import UseEffectPracticeThree from "./use-effect-practice/use-effect-practice-3";
+import SignupFormComponent from "./signup-form-api/signup-form-component";
 function App() {
   const arr1 = [
     { name: "sai", mobile: "1234" },
@@ -67,6 +68,7 @@ function App() {
           path="/use-effect-practice-3"
           element={<UseEffectPracticeThree />}
         />
+        <Route path="/signup-form" element={<SignupFormComponent />} />
       </Routes>
     </div>
   );
