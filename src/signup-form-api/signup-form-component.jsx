@@ -1,12 +1,32 @@
 import React from "react";
 import axios from "axios";
 const SignupFormComponent = () => {
-  const onSubmit = (e) => {
-    console.log("=>(The value:)>=", e);
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    // console.log("=>(The value:)>=", e.target.email.value);
+    // console.log("The first name:", e.target.firstname.value);
+    try {
+      console.log("CHECK ENTRY 2381");
+
+      const pushDetails = await axios(
+        "http://localhost:21000/api/v1/User/userSignup",
+        {
+          firstName: e.target.firstname.value,
+          email: e.target.email.value,
+        }
+      );
+      if (pushDetails.status === 200) {
+        console.log("The process is successful");
+      } else {
+        console.log("Error occured");
+      }
+    } catch (e) {
+      console.log("Error:", e);
+    }
   };
   return (
     <div>
-      <form action={onSubmit}>
+      <form onSubmit={onSubmit}>
         <label htmlFor="email">Email</label>
         <input type="text" id="email" />
         <label htmlFor="firstname">First name</label>
